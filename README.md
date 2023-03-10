@@ -5,4 +5,9 @@
 
 
 ## Summary Statistics on Suspension Coils
-![Screenshot 2023-03-10 142506](https://user-images.githubusercontent.com/45715246/224408048-98561d8c-e6ea-4b66-87d5-2e308751a2c7.png)
+### Total Summary DF:
+![Screenshot 2023-03-10 144438](https://user-images.githubusercontent.com/45715246/224413208-193869ee-d1e3-4c1a-aa66-26796bafb8e5.png)
+
+
+### Lot Summary DF:
+![Screenshot 2023-03-10 144602](https://user-images.githubusercontent.com/45715246/224413497-59b8ca05-d4da-4035-b25b-55e80aa61af9.png)
