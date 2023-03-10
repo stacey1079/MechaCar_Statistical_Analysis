@@ -9,4 +9,6 @@ summary(reg)
 # Import Suspension_Coil.csv
 sus_coil <- read.csv(file = "Suspension_Coil.csv")
 
-total_summary <- summarize(sus_coil, mean(PSI), median(PSI), var(PSI), sd(PSI))
+total_summary <- summarize(sus_coil, Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
+
+lot_summary <- sus_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups='keep')
