@@ -1,7 +1,10 @@
 # MechaCar_Statistical_Analysis
 
-## Linear Regression to Predict MPG
+## Part 1: Linear Regression to Predict MPG
 ![Screenshot 2023-03-10 135849](https://user-images.githubusercontent.com/45715246/224403232-3009e620-1f44-45a4-96fa-e1c8cd749d6f.png)
+
+
+## Part 2: Create Visualizations for the Trip Analysis
 
 
 ## Summary Statistics on Suspension Coils
@@ -23,3 +26,7 @@
 
 
 ![t_test3](https://user-images.githubusercontent.com/45715246/224503812-0274d7b4-43cd-4e2a-b27a-4d2b2750ee3c.png)
+
+
+
+## Study Design: MechaCar vs. Competition
