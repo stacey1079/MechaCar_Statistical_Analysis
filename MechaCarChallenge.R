@@ -21,6 +21,8 @@ total_summary <- summarize(sus_coil, Mean=mean(PSI), Median=median(PSI), Varianc
 # Create log_summary dataframe using group_by() and summarize()
 lot_summary <- sus_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), SD=sd(PSI), .groups='keep')
 
+# Part 3: T-Test on Suspension Coils
+
 # Perform t.test() function to determine if PSI across all manufacturing lots is statistically different from the mean of 1500 PSI
 t.test(sus_coil$PSI, mu=1500)
 
