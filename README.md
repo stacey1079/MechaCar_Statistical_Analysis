@@ -1,7 +1,9 @@
 # MechaCar_Statistical_Analysis
 
 ## Part 1: Linear Regression to Predict MPG
-![Screenshot 2023-03-10 135849](https://user-images.githubusercontent.com/45715246/224403232-3009e620-1f44-45a4-96fa-e1c8cd749d6f.png)
+
+
+![mechacar_lm](https://user-images.githubusercontent.com/45715246/224561169-3212f78b-4f2e-41d4-a63c-76a25d6afa44.png)
 
 
 ## Part 2: Create Visualizations for the Trip Analysis
