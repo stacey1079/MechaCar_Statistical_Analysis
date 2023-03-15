@@ -38,7 +38,7 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ## Part 3: T-Test on Suspension Coils
 
 
-The screenshots below demonstrates the T-Tests on the suspension coils of the MechaCar.  The purpose of these T-Tests were to determine if all manufacturing lots and if each lot individually are statistically different from the mean of 1500 PSI.  We use the p-value to determine the statistical differences.  As you see from the screenshots below, the population mean of 1500 PSI has a p-value of .06028.  Both Lots 1 and 2 have no statistical difference based on their p-values as they are over .05.  Lot 3 does have a statistical difference because the p-value is .04 which is less than .05.
+The screenshots below demonstrates the T-Tests on the suspension coils of the MechaCar.  The purpose of these T-Tests were to determine if all manufacturing lots and if each lot individually are statistically different from the mean of 1500 PSI.  We use the p-value to determine the statistical differences.  As you see from the screenshots below, the population mean of 1500 PSI has a p-value of .06028.  Both Lots 1 and 2 have no statistical difference based on their p-values as they are over .05.  Lot 3 does have a statistical difference because the p-value is .04 which is less than .05 which shows a null hypothesis.
 
 ![t_test1](https://user-images.githubusercontent.com/45715246/224503776-21f7491b-5fec-451d-9b88-46985e99a664.png)
 
@@ -53,3 +53,5 @@ The screenshots below demonstrates the T-Tests on the suspension coils of the Me
 
 
 ## Study Design: MechaCar vs. Competition
+
+In order to test MechaCar against the competition, I would like to perform these same mpg statistical analyses on 2-3 of the competition car models using linear regression models.  By doing this, we can compare the data to see which metrics provide each model with the best mpg.  I think using the same metrics of vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance would be provide great data to compare.  I would use the same factors of p-value and r-squared for the competition models in order to provide the null hypothesis. 
