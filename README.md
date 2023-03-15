@@ -37,6 +37,9 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## Part 3: T-Test on Suspension Coils
 
+
+The screenshots below demonstrates the T-Tests on the suspension coils of the MechaCar.  The purpose of these T-Tests were to determine if all manufacturing lots and if each lot individually are statistically different from the mean of 1500 PSI.  We use the p-value to determine the statistical differences.  As you see from the screenshots below, the population mean of 1500 PSI has a p-value of .06028.  Both Lots 1 and 2 have no statistical difference based on their p-values as they are over .05.  Lot 3 does have a statistical difference because the p-value is .04 which is less than .05.
+
 ![t_test1](https://user-images.githubusercontent.com/45715246/224503776-21f7491b-5fec-451d-9b88-46985e99a664.png)
 
 
